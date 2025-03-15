@@ -25,7 +25,7 @@ function handleRedirect() {
 
     setTimeout(() => {
         window.open(fullUrl, '_blank')
-        btn.innerHTML = '🚀 立即解析'
+        btn.innerHTML = '🔓 立即解析'
         btn.disabled = false
     }, 800)
 }
